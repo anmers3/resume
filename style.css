@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Krona One";
+    background: #001524;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 78px;
+    padding: 278px 0 391px 357px;
+}
+
+.content-container {
+    display: flex;
+}
+
+.profile-container {
+    position: relative;
+    width: 615px;
+    height: 482px;
+    margin-bottom: 20px;
+}
+
+.social-link {
+    width: 280px;
+    height: 79px;
+    padding: 16px;
+    position: absolute;
+    background: #FF7D00;
+    border-radius: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    top: 403px;
+
+}
+
+.social-link-center {
+    text-align: center; 
+    color: #001524; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 36px; 
+    word-wrap: break-word"
+}
+
+.text-container {
+    width: 593px;
+    height: 352px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+    display: inline-flex;
+    color: #FFECD1;
+    span: #FF7D00;
+}
+
+.text-container h1 {
+    margin: 0;
+}
+
+.text-title{
+    width: 593px;
+    color: #FFECD1;
+    font-size: 36px;
+    font-family: Krona One;
+    font-weight: 400;
+    line-height: 56px;
+    word-wrap: break-word;    
+}
+
+.text-sub-title{
+    width: 593px; 
+    color: #FFECD1; 
+    font-size: 24px; 
+    font-family: Montserrat; 
+    font-weight: 400; 
+    line-height: 36px; 
+    word-wrap: break-word"    
+}
+
+.image-container {
+    position: relative;
+    width: 468px;
+    height: 482px;
+    margin-bottom: 20px;
+}
+
+.border-box {
+    position: absolute;
+    width: 446.9px;
+    height: 472.13px;
+    left: 21.1px;
+    top: 0;
+    border-radius: 16px;
+    border: 3px #FF7D00 solid;
+}
+
+.border-box:nth-child(2),
+.border-box:nth-child(3) {
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+    border: 3px #FF7D00 solid;
+}
+
+.border-box:nth-child(3) {
+    width: 401.66px;
+    height: 47.66px;
+    left: 0;
+    top: 433.04px;
+}
+
+.border-box:nth-child(4) {
+    width: 51.9px;
+    height: 60.03px;
+    left: 423.99px;
+    top: 170.54px;
+    background: #FF7D00;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
